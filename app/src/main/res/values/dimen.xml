@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_item_width">@dimen/_230sdp</dimen>
+    <dimen name="login_item_height">@dimen/_45sdp</dimen>
+    <dimen name="list_item_text">@dimen/_12ssp</dimen>
+</resources>

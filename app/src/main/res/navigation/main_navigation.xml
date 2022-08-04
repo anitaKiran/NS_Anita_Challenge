@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.nordsecurity.test.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_serverFragment"
+            app:destination="@id/serverFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/serverFragment"
+        android:name="com.nordsecurity.test.ServersListFragment"
+        android:label="serverList"
+        tools:layout="@layout/fragment_servers_list">
+    </fragment>
+
+</navigation>
